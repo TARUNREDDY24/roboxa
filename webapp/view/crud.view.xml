@@ -1,0 +1,12 @@
+<mvc:View controllerName="project2.controller.crud"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+       <content>
+       <Table id="TableId" mode="SingleSelect" items="{path: ''}" selectionChange="onselectionChange"></Table>
+      <columns>
+      
+      </columns>
+       </content>
+    </Page>
+</mvc:View>
